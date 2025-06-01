@@ -1,0 +1,22 @@
+[project]
+name = "multi-agents-streamlit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Amna Ashraf", email = "aamnaashraf501@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "google-generativeai>=0.8.5",
+    "openai-agents>=0.0.16",
+    "python-dotenv>=1.1.0",
+    "streamlit>=1.45.1",
+]
+
+[project.scripts]
+multi-agents-streamlit = "multi_agents_streamlit:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
