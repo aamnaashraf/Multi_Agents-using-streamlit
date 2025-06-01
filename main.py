@@ -203,7 +203,7 @@ elif page == "About":
     <div class="about-card">
         <h3>Multi-Agent System by Aamna Ashraf Rajput</h3>
         <p>This application demonstrates a multi-agent AI system built with Streamlit and Google Gemini models.</p>
-        <p>The system delegates tasks intelligently among specialized agents such as Developer, Blogger, Manager, etc.</p>
+        <p>The system delegates tasks intelligently among specialized agents such as Developer, Blogger, Manager,  Email-writer, mobile app developer, marketing strategy guider etc.</p>
         <p><strong>Features include:</strong></p>
         <ul>
             <li>Clean and responsive UI with sidebar navigation</li>
